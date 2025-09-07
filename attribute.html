@@ -9,7 +9,7 @@
             color: red;
         }
 
-        p[title|="belajar"]
+        p[title^="belajar"]
         {
             color: red;
         }
@@ -21,8 +21,9 @@
     <a href="" target="_self">Contoh 3</a>
     <a href="">Contoh 4</a>
 
-    <p title="belajar pemrograman">Ini tidak dipilih</p>
+    <p title="belajar pemrograman">Ini dipilih</p>
     <p title="belajar">Ini dipilih</p>
     <p title="belajar-pemrograman">Ini dipilih</p>
+    <p title="pemrograman belajar">Ini tidak dipilih</p>
 </body>
 </html>
